@@ -8,6 +8,7 @@ Main things to get a high point:
 2. Clean code
 3. Fast program execution
 4. Possibility use code as production solution
+
 API to save images(you can choose another): https://api.imgur.com/endpoints/image/
 
 Setup mobile application using react-native
