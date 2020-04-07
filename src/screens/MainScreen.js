@@ -3,10 +3,11 @@ import { ImagePickerComponent } from '../components/ImagePickerComponent';
 import { Image, useWindowDimensions, StyleSheet, View, } from 'react-native';
 import { Button } from 'react-native-material-ui';
 import Toast from 'react-native-easy-toast'
+import { API } from '../constants/api';
 
 const upload = async (data, showMessage) => {
     try {
-        await fetch('http://example.com', {
+        await fetch(API, {
             method: 'POST',
             data
         })
